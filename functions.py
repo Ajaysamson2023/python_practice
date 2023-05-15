@@ -2,9 +2,9 @@
 # Passing a data into a function is called "parameter"
 # It "return" data as a "RESULT"
 
-
 def welcome():
     print("welcome to practice python")
+    print("Here to help you improve your skills ")
 
 
 welcome()
