@@ -24,3 +24,4 @@ class call(subtraction):
 
 o = call()
 o.result()
+print("Multilevel inheritance")
