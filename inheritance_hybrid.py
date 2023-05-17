@@ -53,3 +53,4 @@ class D(B, C):
 
 o = D()
 o.display()
+print("Hybrid inheritance")
