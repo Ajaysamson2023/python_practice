@@ -115,17 +115,6 @@ def student(name, city="salem"):
 student("Raj")
 student("SAM", "bangalore")
 
-# lambda function (anonymous function):
-
-x = lambda a, b: a + b
-print(x(23, 4))
-
-x = lambda a, b, c: a + b * c
-print(x(2, 4, 3))
-
-x = lambda a, b, c: a / b * c
-print(x(2, 4, 3))
-
 
 # recursive function(call itself to finish work) factorial:
 
@@ -175,3 +164,14 @@ t = int(input("Enter t value:"))
 n = int(input("Enter n value:"))
 
 tables(n, t)
+
+# lambda function (anonymous function):
+
+x = lambda a, b: a + b
+print(x(23, 4))
+
+x = lambda a, b, c: a + b * c
+print(x(2, 4, 3))
+
+x = lambda a, b, c: a / b * c
+print(x(2, 4, 3))
